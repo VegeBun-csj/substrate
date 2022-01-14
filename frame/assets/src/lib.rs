@@ -178,7 +178,7 @@ pub mod pallet {
 		/// The units in which we record balances.
 		type Balance: Member + Parameter + AtLeast32BitUnsigned + Default + Copy + MaxEncodedLen;
 
-		/// Identifier for the class of asset.
+		/// Identifier for the class of asset. 标识哪种类型的资产
 		type AssetId: Member + Parameter + Default + Copy + HasCompact + MaxEncodedLen;
 
 		/// The currency mechanism.
